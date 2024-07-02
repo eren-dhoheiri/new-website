@@ -1,20 +1,18 @@
-export const SiteTitle = 'Eren Dhoheiri - Web Pribadi';
-export const SiteDescription =
-  'Blog Pribadi Eren Dhoheiri';
+export const SiteTitle = 'Personal Website Eren Dhoheiri';
+export const SiteDescription = 'Personal Website Eren Dhoheiri';
 export const SiteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
-export const BlogSiteTitle = 'Eren Dhoheiri - Blog';
-export const BlogSiteDescription =
-  'Blog Pribadi Eren Dhoheiri';
+export const BlogSiteTitle = 'Personal Website Eren Dhoheiri';
+export const BlogSiteDescription = 'Personal Website Eren Dhoheiri';
 export const BlogSiteUrl = `${process.env.NEXT_PUBLIC_SITE_URL}/blog`;
 
-export const AboutMeSiteTitle = 'Eren Dhoheiri - Tentang Saya';
-export const AboutMeSiteDescription = 'Siapa saya? Semua hal saya jelaskan disini';
+export const AboutMeSiteTitle = 'Eren Dhoheiri - About Me';
+export const AboutMeSiteDescription = 'About Eren Dhoheiri';
 export const AboutMeSiteUrl = `${process.env.NEXT_PUBLIC_SITE_URL}/about`;
 export const AboutMeContent = `
-  Eren Dhoheiri, 25 tahun, lahir dan besar dari keluarga sederhana, hanya berharap bermanfaat bagi sesama.
-  Bekerja sebagai pengembang piranti lunak di start-up aquaculture. Saat ini tinggal di Tangerang (Indonesia), dan berharap bisa menjadi pengembara digital suatu saat nanti.
-  Terbiasa menggunakan Javascript/Typescript untuk pengembangkan aplikasi , namun masih antusias untuk belajar bahasa pemrograman lainnya, kerangka kerja, dan lainnya. Tertarik dengan isu yang berkaitan dengan kemanuasiaan, politik, filosofi dan teknologi.
+I'm Eren Dhoheiri, a 27-year-old born and raised in Tangerang, Indonesia, where I grew up in a tight-knit, humble family that instilled in me values of compassion and community from a young age. My journey into the world of technology began with a profound fascination for its power to create meaningful change.\n\n
+Currently, I'm honored to serve as an Engineering Manager at a cutting-edge aquaculture startup. Here, I lead with a passion for fostering innovation and excellence in operations. My journey has been marked by leveraging my expertise to develop robust solutions that seamlessly marry simplicity with sophistication, ensuring our products meet the highest standards.\n\n
+Beyond my technical role, I'm deeply curious about a wide range of subjects. I find myself drawn to exploring politics, philosophy, business, and technology, constantly seeking intersections that inspire fresh insights and strategic approaches.
 `;
 
 export const CompaniesLinks = [

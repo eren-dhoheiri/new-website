@@ -56,15 +56,17 @@ const Index = ({ latestPosts }: Props) => {
                   <span className="{`${styles.cursor} absolute -bottom-0 left-0 -top-1 inline-block bg-white w-full animate-type will-change`}"></span>
                 </span>
               </h1>
-              <p className="mt-4 prose">
-                Selamat datang di blog pribadi saya, semoga ada yang bisa Anda ambil dari sini.{' '}
-                {/* <br/> */}
-                Sekelumit tentang saya, sila baca di halaman{' '}
+              <br />
+              <p className="mt-4 mx-8 prose">
+                Welcome to my personal web! I'm thrilled to have you here. If you're interested in
+                knowing more about me, feel free to check out my{' '}
                 <Link href={'/about'} passHref={true}>
-                  <a className="underline cursor-pointer">Tentang Saya.</a>
-                </Link>
-                {/* <br/> */} Senang apabila dihubungi untuk pekerjaan melalui{' '}
-                <ExternalLink href="mailto:dhoheiri@gmail.com"> pesan.</ExternalLink>{' '}
+                  <a className="underline cursor-pointer">About Me</a>
+                </Link>{' '}
+                page. If you've any work opportunities or just want to connect, please don't
+                hesitate to shoot me an{' '}
+                <ExternalLink href="mailto:dhoheiri@gmail.com">Email</ExternalLink>. I'd love to
+                hear from you!{' '}
               </p>
             </div>
             {/* <div className="flex-shrink-0 overflow-hidden">
@@ -72,7 +74,7 @@ const Index = ({ latestPosts }: Props) => {
             </div> */}
           </div>
         </header>
-        {/* <Section title={'Blog'} hasMore link={'/blog'}>
+        <Section title={'Blog'} hasMore link={'/blog'}>
           <div className="space-y-4">
             {latestPosts.map((post) => {
               return (
@@ -83,7 +85,7 @@ const Index = ({ latestPosts }: Props) => {
               );
             })}
           </div>
-        </Section> */}
+        </Section>
         {/* <div className="mt-4 border border-gray-400 rounded overflow-hidden">
           <iframe
             src="https://-.substack.com/embed"
